@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 60px;
+}
+
+button{
+    padding: 10px 20px;
+    background: #0077ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #0055cc;
+}
+
+.skills {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.skills-icons i {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.skills-icons i:hover { 
+    transform: scale(1.2);
+}
+
+.follow-me-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.social-icons i {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.social-icons i:hover { 
+    transform: scale(1.2);
+}
